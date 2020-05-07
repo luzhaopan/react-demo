@@ -1,9 +1,13 @@
 import React from "react";
-// import logo from "../public/logo.svg";
+import { Button } from "antd";
 // import "./App.css";
 
 function App() {
-  return <div className="App">首页</div>;
+  return (
+    <div className="App">
+      <Button type="primary">Button</Button>
+    </div>
+  );
 }
 
 export default App;
