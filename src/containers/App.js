@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./home";
 import List from "./list";
 import Table from "./table";
+import Example from "./timeCount";
 // import "./App.css";
 
 // BrowserRouter其实就是HTML 的 History API
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/" component={Home}></Route>
         <Route path="/list" component={List}></Route>
         <Route path="/table" component={Table}></Route>
+        <Route path="/example" component={Example}></Route>
       </Router>
     </div>
   );
