@@ -11,7 +11,7 @@ export default class Home extends React.Component {
       <div>
         <div>
           <Button onClick={this.goto} type="primary">
-            gogogo
+            gogogo(首页)
           </Button>
         </div>
       </div>

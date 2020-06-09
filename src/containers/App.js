@@ -4,6 +4,7 @@ import Home from "./home";
 import List from "./list";
 import Table from "./table";
 import Example from "./timeCount";
+import FileSearch from "./fileSearch";
 // import "./App.css";
 
 // BrowserRouter其实就是HTML 的 History API
@@ -22,6 +23,7 @@ function App() {
         <Route path="/list" component={List}></Route>
         <Route path="/table" component={Table}></Route>
         <Route path="/example" component={Example}></Route>
+        <Route path="/fileSearch" component={FileSearch}></Route>
       </Router>
     </div>
   );
